@@ -9,9 +9,7 @@ https://github.com/StackExchange/Dapper/issues/642#issuecomment-435277926
 自動的な型変換がうまく行かない時には大体この方法でうまくいくはずです。  
 以下の行をコメントアウトしてあります。  
 
-'''Program.cs
-SqlMapper.AddTypeHandler(typeof(System.Double),new DoubleConverter());
-'''
+    SqlMapper.AddTypeHandler(typeof(System.Double),new DoubleConverter());
 
 このまま実行すると、以下のような例外が発生します。  
 
