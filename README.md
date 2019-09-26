@@ -16,3 +16,5 @@ https://github.com/StackExchange/Dapper/issues/642#issuecomment-435277926
 > Unhandled Exception: System.Data.DataException: Error parsing column 1 (Column2=36 - Double) ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Int32'.  
 
 コメントを解除すれば、正常に実行できるはずです。
+ちなみにSQLを修正して最後の`order by column2 IS NULL DESC` を `order by column2 IS NULL ASC` にすると、なぜかエラーが発生しません。
+詳細な理由は不明ですが、対処法だけ記載しておきます。
