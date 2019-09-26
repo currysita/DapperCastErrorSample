@@ -1,6 +1,6 @@
 # DapperCastErrorSample
 
-このサンプルは、Dapper+SQLiteで検索した際に、double?型への変換に失敗した時の対処法を記載した物です。 
+このサンプルは、Dapper+SQLiteで検索した際に、double?型への変換に失敗した時の対処法を記載した物です。  
 以下のURLで触れられています。 
 https://qrunch.net/@maccyo/entries/toOHtxzaj3Dy4QEp 
 https://github.com/StackExchange/Dapper/issues/642#issuecomment-435277926  
